@@ -1,0 +1,22 @@
+# A new site: its name, its languages (the first is the default), its look, its menu, how to
+# reach its owner. Every value can be changed in the app, by hand or by asking the assistant.
+schema = 1
+
+[site]
+id = "mon-site"
+name = "Mon entreprise"
+languages = ["fr", "en"]
+tagline = { fr = "Ce que nous faisons, en une phrase", en = "What we do, in one sentence" }
+
+[look]
+theme = "fields"
+
+[menu]
+pages = ["index", "contact"]
+
+[contact]
+email = "bonjour@example.org"
+form = true
+
+[footer]
+text = { fr = "[Nous écrire](contact)", en = "[Write to us](contact)" }

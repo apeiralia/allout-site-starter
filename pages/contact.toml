@@ -1,0 +1,7 @@
+title = { fr = "Nous joindre", en = "Contact us" }
+description = { fr = "Comment nous joindre.", en = "How to reach us." }
+
+[[blocks]]
+type = "contact"
+title = { fr = "Écrivez-nous", en = "Write to us" }
+text = { fr = "Nous répondons en un jour ouvrable.", en = "We answer within one business day." }

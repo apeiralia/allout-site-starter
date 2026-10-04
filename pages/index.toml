@@ -1,0 +1,31 @@
+title = { fr = "Accueil", en = "Home" }
+description = { fr = "Ce que nous faisons, pour qui, et comment nous joindre.", en = "What we do, for whom, and how to reach us." }
+
+[[blocks]]
+type = "hero"
+title = { fr = "Bienvenue", en = "Welcome" }
+text = { fr = "Dites ici, en une ou deux phrases, ce que vous offrez et à qui.", en = "Say here, in a sentence or two, what you offer and to whom." }
+image = "media/accueil.svg"
+button = { label = { fr = "Nous écrire", en = "Write to us" }, link = "contact" }
+
+[[blocks]]
+type = "features"
+title = { fr = "Pourquoi nous choisir", en = "Why choose us" }
+
+[[blocks.items]]
+title = { fr = "Un premier point fort", en = "A first strength" }
+text = { fr = "Une phrase qui le montre.", en = "A sentence that shows it." }
+
+[[blocks.items]]
+title = { fr = "Un deuxième", en = "A second one" }
+text = { fr = "Une phrase qui le montre.", en = "A sentence that shows it." }
+
+[[blocks.items]]
+title = { fr = "Un troisième", en = "A third one" }
+text = { fr = "Une phrase qui le montre.", en = "A sentence that shows it." }
+
+[[blocks]]
+type = "cta"
+title = { fr = "Une question ?", en = "A question?" }
+text = { fr = "Écrivez-nous, nous répondons vite.", en = "Write to us, we answer quickly." }
+button = { label = { fr = "Nous écrire", en = "Write to us" }, link = "contact" }
